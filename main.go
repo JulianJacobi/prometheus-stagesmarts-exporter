@@ -14,8 +14,8 @@ import (
 )
 
 var (
-    address = flag.String("listen-address l", "127.0.0.1", "Address the webserver listen on.")
-    port = flag.Int("port p", 9005, "Port the webserver binds to.")
+    address = flag.String("listen-address", "127.0.0.1", "Address the webserver listen on.")
+    port = flag.Int("port", 9005, "Port the webserver binds to.")
 )
 
 func main() {
